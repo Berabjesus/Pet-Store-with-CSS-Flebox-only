@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@831&display=swap" rel="stylesheet">
+    <link rel="stylesheet
+    " href="./css/style.css">
+    <title>iDogs</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+           <h2>i</h2><h2>Dogs</h2>
+        </div>
+        <label for="toggle" class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <input type="checkbox" name="toggle" id="toggle">
+        <div class="nav__links">
+            <a class="nav__links--el nav__links--el-1" href="#">Home</a>
+            <a class="nav__links--el nav__links--el-2" href="#">Services</a>
+            <a class="nav__links--el nav__links--el-3" href="#">Contacts</a>
+            <a class="nav__links--el nav__links--el-4" href="#">About Us</a>
+        </div>
+    </nav>
+    <main class="container">
+        <header class="header">
+            <div class="header_service">
+               <a class="header_service_list service-list-1" href="#">
+                <img src="./media/icons/serv1.png" alt="">
+                <h2>Dog Adoption</h2>
+               </a>
+               <a class="header_service_list service-list-2" href="#">
+                <img src="./media/icons/serv2.png" alt="">
+                <h2>Dog Foods</h2>
+               </a>
+               <a class="header_service_list service-list-3" href="#">
+                <img src="./media/icons/serv3.png" alt="">
+                <h2>Dog accessories</h2>
+               </a>
+               <a class="header_service_list service-list-4" href="#">
+                <img src="./media/icons/serv4.png" alt="">
+                <h2>Dog Health</h2>
+               </a> 
+            </div>
+            <div class="header_dog-icon">
+                <div class="dog-icon-head head-ear-1"></div>
+                <div class="dog-icon-head head-ear-2"></div>
+                <div class="dog-icon-head head-eye-1"><p class="eyes"></p></div>
+                <div class="dog-icon-head head-eye-2"><p class="eyes"></p></div>
+                <div class="dog-icon-head head-nose-mouth">
+                    <div class="head-nose"></div>
+                    <div class="head-mouth"></div>
+                </div>
+            </div>
+        </header>
+
+        <section class="content">
+            <div class="content-hero">
+                <div class="hero_left">
+                    <h1>Do you love Dogs?</h1>
+                    <h1>Are you a Dog person?</h1>
+                    <h2>Sign up and get evetything you need for you and your dog!</h1>
+                    <button class="hero-buttons hero_left-button">Sign Up</button>
+                </div>
+                <div class="hero_right">
+                    <form action="#" class="hero_right_form ">
+                        <div class="user-input hero_right_form-input-1 ">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="user-input hero_right_form-input-1 ">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your Password" required>
+                        </div>
+                        <button class="hero-buttons hero_right-button">Log In</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="row dogs-view">
+            <div class="dogs-view_header">
+            </div>
+
+            <div class="dogs-view-pic">
+                <div class="dogs-list layout-1">
+                </div>
+                <div class="dogs-list layout-2"></div>
+                <div class="dogs-list layout-3"></div>
+                <div class="dogs-list layout-4"></div>
+            </div>
+       </section>
+    </main>
+</body>
+</html>
